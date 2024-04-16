@@ -41,3 +41,9 @@ but actual value is not a number in all casses */
 //1=>true ,0=>false
 //""=> false
 //"sathya" => true
+
+
+
+//********************operations ******* */
+
+
