@@ -36,3 +36,20 @@ const suser = {
      email:"sathyaprakash777.sp@gmail.com",
      isLoggedin:false
 }
+
+
+
+//destructuring of arrays
+
+const course = {
+     name:"js_hindi",
+     price:"999",
+     courseInstructor:"hitesh"
+}
+
+//course.courseInstructor;same out put 
+
+const {courseInstructor:instructor}=course
+
+//console.log(courseInstructor);same out put 
+//console.log(instructor);same out put 
