@@ -28,10 +28,6 @@ const obj2 ={3:"A",4:"B"}
 const obj3 ={...obj1,...obj2}
 
 
-
-
-
-
 //2.object literals-method
 
 const suser = {
