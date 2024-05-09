@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM | chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Java Script</li>
+    </ul>
+</body>
+<script>
+    function addLanguge(langName){
+        const liEl=document.createElement('li')
+        liEl.innerText = `${langName}`
+        document.querySelector('.language').appendChild(liEl)
+    }
+
+    addLanguge('python')
+    addLanguge('typescript')
+
+
+    function addOptiLanguge(langName){
+        const liEl=document.createElement('li')
+        liEl.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(liEl)
+    }
+    
+    addOptiLanguge('java')
+    addOptiLanguge('c')
+</script>
+</html>
