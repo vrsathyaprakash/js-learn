@@ -18,10 +18,19 @@
         </ul>
 </body>
 <SCRipt>
+    // document.getElementById("owl").onclick =function{
+    //     alert('owl clicked')
+    // }
+
+    //this method helps in propagation and more functionality
     document.getElementById("owl").addEventListener('click',()=>{
         alert('owl clicked')
-    }, false)
+    }, false)//third parameter is for event propagation:false:event bubling-
+    //true:event capturing
 
+    //attachEvent(),jquery-old methods
+
+    //To read methods or attributes of event listener:
     //type, timestamp, defaultprevent
     //target, source element, to element, current target
     //client position :x,y,offset,screen x,screen y 
